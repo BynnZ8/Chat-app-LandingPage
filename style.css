@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 10.69px;
+    width: 100vw;
+    font-family: "rubik";
+    overflow-x: hidden;
+    color: #fff;
+}
+.background-violet {
+    background-image: linear-gradient(to top, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    position: absolute;
+    border-radius: 0 0 50vw 50vw;
+    width: 35vw;
+    height: 90vh;
+    right: 76.5%;
+}
+.background-light-violet {
+    background-color: hsl(270, 20%, 96%);
+    position: absolute;
+    border-radius: 50vw 50vw 0 0;
+    width: 35vw;
+    height: 90vh;
+    bottom: 0;
+    left: 76.5%;
+    z-index: -1;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-head {
+    width: 30%;
+    margin-left: 10%;
+    line-height: 30px;
+    font-size: 16px;
+    color: hsl(270, 7%, 64%);
+}
+.main-head h1 {
+    font-size: 30px;
+    margin: 8% 0;
+    color: hsl(271, 36%, 24%);
+}
+.top-cell-white {
+    width: 270px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.top-div {
+    background-color: hsl(0, 0%, 100%);
+    width: 55%;
+    height: 75%;
+    border-radius: 0 0 15px 15px;
+}
+.interface-cell {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    width: 290px;
+    height: 550px;
+    padding: 10px;
+    box-shadow: 17px 17px 25px -10px hsl(206, 6%, 79%);
+}
+.pessoa {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    border-radius: 30px 30px 5px 5px;
+    padding: 20px 15px 15px 15px;
+    width: 270px;
+    height: 80px;
+}
+.nome-pessoa p{
+    color: hsl(276, 100%, 81%);
+}
+.nome-pessoa h2 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.perfil, .icon-pontos {
+    display: flex;
+    margin-top: 15px;
+}
+#seta {
+    display: flex;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+.icon-pontos {
+    line-height: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+}
+.perfil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    margin: 0 10px 0 0;
+}
+.interface-msg {
+    background-color: hsl(270, 20%, 96%);
+    height: 550px;
+    border-radius: 0 0 35px 35px;
+    padding: 5px;
+}
+.interface-msg > div, .box-message-rigth, .div-p-input {
+    margin: 4.5px 3px;
+}
+.left {
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(0, 0%, 84%, 0.761);
+    border-radius: 15px 15px 15px 5px;
+    padding: 7px;
+    display: inline-flex;
+    width: 60%;
+}
+.rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    color: hsl(271, 15%, 43%);
+}
+.box-message-rigth {
+    background-color: hsl(0, 0%, 100%);
+    padding: 7px;
+    border-radius: 15px 15px 5px 15px;
+    box-shadow: 3px 10px 10px -5px hsl(206, 6%, 79%);
+}
+.images-dog {
+    display: flex;
+    justify-content: end;
+}
+.images-dog img{
+    width: 55px;
+    border-radius: 15px;
+    margin: 0 4.5px;
+}
+.left-input {
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    width: 77%;
+    padding: 3px;
+    border-radius: 15px 15px 15px 5px;
+}
+input[type="radio"] {
+    appearance: none;
+    border: 1.5px solid hsl(289, 100%, 72%);
+    padding: 6px;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.submit {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(206, 6%, 79%);
+}
+.price {
+    font-size: 13px;
+    font-weight: bold;
+}
+.div-p-input, .div-p-input p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-submit {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit p{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 125vh;
+    }
+    .main-head {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+    .background-light-violet {
+        display: none;
+    }
+    .background-violet {
+        width: 110vw;
+        height: 59vh;
+        right: 50vw;
+    }
+    .interface-cell {
+        height: 570px;
+    }
+}
