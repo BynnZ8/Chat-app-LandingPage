@@ -183,7 +183,7 @@ input[type="radio"] {
     font-size: 13px;
     font-weight: bold;
 }
-.div-p-input, .div-p-input p{
+.div-p-input, .div-p-input label{
     display: flex;
     justify-content: space-between;
     align-items: center;
