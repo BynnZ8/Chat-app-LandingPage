@@ -19,6 +19,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 ### Links
 
 - Live Site URL: [Chat app CSS illustration](https://chat-app-landing-page-omega.vercel.app/)
+- Solution URL: [Solution Frontend Mentor](https://www.frontendmentor.io/solutions/chat-app-css-illustration-i1i5TQfcZW)
 
 ### Built with
 
